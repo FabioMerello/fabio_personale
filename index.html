@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabio Antonio Merello – Porfolio</title>
+    <link rel="icon" href="imgp.jpeg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papTgkAgF6DHQps4jzFqXTmFChFbRpiEuk+xO+Uuk6A3pFP6Y65IG9Bp6PA2XvwFyKxJQfaJTOkB3Vr+VsyYkg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+
+<div id="cookie-banner" class="hidden">
+    <p>
+        Questo sito utilizza Google Maps che potrebbe installare cookie di terze parti.
+        <a href="/privacy.html" target="_blank" rel="noopener">Scopri di più</a>.
+    </p>
+    <button id="accept-cookies">OK</button>
+</div>
+
+<header class="navbar" id="navbar">
+    <div class="container">
+        <!-- Link desktop -->
+        <nav class="nav-links" id="nav">
+            <a href="#hero">Home</a>
+            <a href="chi_siamo.html">Chi sono</a>
+            <a href="#servizi">Servizi</a>
+            <a href="siti.html">Siti</a>
+            <a href="#footer">Contatti</a>
+        </nav>
+
+        <!-- Hamburger mobile -->
+        <div class="menu-toggle" id="menu-toggle" aria-label="Apri menu">&#9776;</div>
+    </div>
+</header>
+
+<!-- Pannello mobile -->
+<div class="mobile-overlay" id="mobile-overlay">
+    <a href="#hero">Home</a>
+    <a href="chi_siamo.html">Chi sono</a>
+    <a href="#servizi">Servizi</a>
+    <a href="siti.html">Siti</a>
+    <a href="#footer">Contatti</a>
+</div>
+
+
+
+<!-- Hero Portfolio -->
+<section class="hero-portfolio" id="hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Fabio Antonio Merello</h1>
+                <p>
+                    Web Developer freelance di Genova.
+                    Creo siti web moderni, veloci e ottimizzati per Google.
+                </p>
+                <a href="#footer" class="btn">Contattami</a>
+            </div>
+            <div class="hero-image">
+                <div class="profile-frame">
+                    <img src="imgp.jpeg" alt="Fabio Antonio Merello">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Onda inferiore -->
+
+<div class="wave-bottom">
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path fill="#ffffff"
+              d="M0,0 C360,0 1080,100 1440,0 L1440,100 L0,100 Z">
+            <animate
+                    attributeName="d"
+                    dur="2.5s"
+            repeatCount="indefinite"
+            values="
+            M0,0 C360,0 1080,100 1440,0 L1440,100 L0,100 Z;
+            M0,0 C360,20 1080,80 1440,0 L1440,100 L0,100 Z;
+            M0,0 C360,0 1080,100 1440,0 L1440,100 L0,100 Z
+            " />
+        </path>
+    </svg>
+</div>
+<!-- About / Storia -->
+<section class="about-portfolio" id="about">
+    <div class="container">
+        <div class="section-header">
+            <h2>Chi sono</h2>
+            <p>Passione, curiosità e continuo miglioramento</p>
+        </div>
+
+        <div class="about-content">
+            <!-- Testo principale -->
+            <div class="about-text">
+                <p>
+                    Mi chiamo <strong>Fabio Antonio Merello</strong> e sono un web developer di Genova,
+                    appassionato di tecnologia e sviluppo web fin da giovane.
+                </p>
+
+                <p>
+                    Mi occupo della <strong>realizzazione di siti web professionali</strong>,
+                    seguendo ogni fase del progetto: dallo sviluppo alla configurazione del dominio
+                    fino alla <strong>messa online e indicizzazione</strong>.
+                </p>
+
+                <p>
+                    Attualmente frequento l’<strong>Accademia della Marina Mercantile</strong>,
+                    nel corso ITS di <strong>Tecnico Superiore per la Gestione dei Processi di Automazione in Ambito Portuale</strong>,
+                    dove integro competenze informatiche e processi logistici.
+                </p>
+
+                <p>
+                    Nell’ambito di questo percorso ho sviluppato una <strong>tesina su un portale web per la gestione dei container vuoti</strong>,
+                    visionata anche da <strong>Leonardo Informatica</strong> e <strong>Container Fidenza</strong>.
+                </p>
+
+                <p>
+                    Continuo a formarmi in <strong>UI/UX design</strong> e sviluppo web,
+                    con l’obiettivo di creare soluzioni digitali moderne, funzionali ed efficaci.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Onda superiore -->
+<div class="wave-top">
+    <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+        <path fill="#ffffff"
+              d="M0,100 C360,100 1080,0 1440,100 L1440,0 L0,0 Z">
+            <animate
+                    attributeName="d"
+                    dur="2.5s"
+            repeatCount="indefinite"
+            values="
+            M0,100 C360,100 1080,0 1440,100 L1440,0 L0,0 Z;
+            M0,100 C360,60 1080,40 1440,100 L1440,0 L0,0 Z;
+            M0,100 C360,100 1080,0 1440,100 L1440,0 L0,0 Z
+            " />
+        </path>
+    </svg>
+</div>
+<section class="services-section" id="servizi">
+    <div class="container">
+
+        <div class="section-header">
+            <h2>I miei servizi</h2>
+            <p>Soluzioni web complete, dalla progettazione alla messa online</p>
+        </div>
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="icon">💻</div>
+                <h3>Siti Web Professionali</h3>
+                <p>
+                    Realizzazione di siti web moderni, veloci e responsive,
+                    progettati per rappresentare al meglio la tua attività online.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🎨</div>
+                <h3>UI / UX Design</h3>
+                <p>
+                    Interfacce intuitive e curate nei dettagli,
+                    con un’esperienza utente pensata per convertire e coinvolgere.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🌐</div>
+                <h3>Dominio & Hosting</h3>
+                <p>
+                    Configurazione dominio, hosting e messa online del sito,
+                    senza complicazioni tecniche per il cliente.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon">🚀</div>
+                <h3>SEO & Indicizzazione</h3>
+                <p>
+                    Ottimizzazione di base per i motori di ricerca
+                    per rendere il sito visibile su Google.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section class="portfolio-section" id="portfolio">
+    <div class="container">
+
+        <div class="section-header center">
+            <h2 class="gradient-text">Portfolio</h2>
+            <p class="gradient-text">
+                Alcuni dei siti web che ho realizzato!
+            </p>
+        </div>
+
+        <div class="portfolio-grid">
+
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="biondo.png" alt="Sito web Enoteca">
+                </div>
+                <h3>Enoteca</h3>
+                <p>Sito web elegante per enoteca e vendita prodotti.</p>
+                <a href="https://fabiomerello.github.io/dalbiondo/" target="_blank" class="portfolio-btn">
+                    Visita il sito
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="destetica.png" alt="Sito attrezzature estetiche">
+                </div>
+                <h3>Attrezzature Estetiche</h3>
+                <p>Portale per la presentazione di macchinari professionali.</p>
+                <a href="https://www.beautyequipment.it/" target="_blank" class="portfolio-btn">
+                    Visita il sito
+                </a>
+            </div>
+
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="deca.png" alt="Sito serramenti">
+                </div>
+                <h3>Serramenti</h3>
+                <p>Sito aziendale per infissi e soluzioni su misura.</p>
+                <a href="https://serramentideca.it/" target="_blank" class="portfolio-btn">
+                    Visita il sito
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section" id="testimonianze" >
+    <div class="container">
+        <div class="section-header">
+            <h2>Recensioni dei Clienti</h2>
+            <p>Le esperienze di chi ha già collaborato con me</p>
+        </div>
+
+        <div class="testimonials-grid">
+
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="testimonial-rating">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google Logo" class="google-logo">
+                    <span>⭐ ⭐ ⭐ ⭐ ⭐</span>
+                </div>
+                <p>
+                    "Fabio ha realizzato il nostro sito con professionalità e creatività. Tutto è stato curato nei dettagli, dall'estetica alla funzionalità."
+                </p>
+                <h4>Giulia R.</h4>
+                <span>Enoteca Vini & Co.</span>
+            </div>
+
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-rating">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google Logo" class="google-logo">
+                    <span>⭐ ⭐ ⭐ ⭐ ⭐</span>
+                </div>
+                <p>
+                    "Collaborare con Fabio è stato un piacere. Il sito della nostra attività estetica è moderno, veloce e facile da usare."
+                </p>
+                <h4>Luca B.</h4>
+                <span>Beauty & Spa</span>
+            </div>
+
+            <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                <div class="testimonial-rating">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" alt="Google Logo" class="google-logo">
+                    <span>⭐ ⭐ ⭐ ⭐ ⭐</span>
+                </div>
+                <p>
+                    "Il portale dei serramenti è chiaro, funzionale e ottimizzato per i nostri clienti. Fabio ha fatto un lavoro impeccabile."
+                </p>
+                <h4>Marco P.</h4>
+                <span>Serramenti F.lli Rossi</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="documents-section" id="documents">
+    <div class="container">
+        <div class="section-header">
+            <h2>Documenti e Certificati</h2>
+            <p>Qui puoi trovare tutti i nostri certificati, attestati e documenti ufficiali che raccontano il nostro percorso accademico e professionale.</p>
+        </div>
+        <div class="documents-content">
+            <a href="https://drive.google.com/your-drive-link" target="_blank" class="btn-docs">Accedi al mio Drive</a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer" id="footer">
+    <div class="container">
+        <div class="footer-content">
+
+            <!-- Logo / Nome -->
+            <div class="footer-logo">
+                <h3>Fabio Antobio Merello</h3>
+                <p>Studente di Informatica & Web Developer</p>
+            </div>
+
+            <!-- Contatti -->
+            <div class="footer-contact">
+                <h4>Contatti</h4>
+                <p>Email: <a href="mailto:mario@example.com">merellofabioantonio@gmail.com</a></p>
+                <p>Telefono: <a href="tel:+391234567890">+39 373 796 5678</a></p>
+                <p>Indirizzo: Via Calamandrei 22, 16158 Genova, Italia</p>
+            </div>
+
+            <!-- Social -->
+            <div class="footer-social">
+                <h4>Seguimi</h4>
+                <div class="social-icons">
+                    <a href="#" target="_blank" aria-label="LinkedIn">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="#" target="_blank" aria-label="GitHub">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
+                    </a>
+                    <a href="#" target="_blank" aria-label="Instagram">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Fabio Antonio Merello. Tutti i diritti riservati.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!-- Script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
