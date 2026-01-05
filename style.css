@@ -274,6 +274,18 @@ body {
     .hero-portfolio .btn { padding: 10px 25px; }
 }
 
+
+
+
+
+.services-section,
+.about-portfolio,
+.portfolio-section {
+    position: relative;
+    z-index: 1;
+}
+
+
 /* ================== */
 /* About Portfolio     */
 /* ================== */
@@ -375,6 +387,10 @@ body {
     display: block;
     width: 100%;
     height: 100px; /* altezza compatta */
+    margin-bottom: -2px; /* FONDAMENTALE */
+    shape-rendering: geometricPrecision;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 @media (max-width: 768px) {
@@ -1127,7 +1143,34 @@ body {
     }
 }
 
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: inline-block;   /* rimuove il flex che centrerà il logo nel cerchio */
+    z-index: 10000;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.whatsapp img {
+    width: 35px;  /* dimensione logo */
+    height: 35px;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+    /* puoi togliere l'ombra se vuoi solo il logo senza effetto cerchio */
+    box-shadow: none;
+}
+
+/* Adattamento per schermi piccoli */
+@media (max-width: 480px) {
+    .whatsapp img {
+        width: 28px;
+        height: 28px;
+    }
+}
 
 
 
