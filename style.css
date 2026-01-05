@@ -1581,3 +1581,166 @@ body {
         padding-left: 25px;
     }
 }
+
+/* ================================
+   SEZIONE SITO PORTFOLIO
+================================ */
+
+.portfolio-offer {
+    background: #f5f5f5;
+    padding: 6rem 1.5rem;
+    color: #1c1c2e;
+}
+
+.portfolio-offer .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.portfolio-offer-header {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 3.5rem;
+}
+
+.portfolio-offer-header h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.portfolio-offer-header p {
+    font-size: 1.15rem;
+    color: #555;
+}
+
+/* BODY */
+.portfolio-offer-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+/* DESCRIZIONE */
+.portfolio-offer-description {
+    max-width: 800px;
+    text-align: center;
+}
+
+.portfolio-offer-description p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+/* VANTAGGI */
+.portfolio-offer-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.portfolio-offer-description li {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    color: #333;
+}
+
+/* BOX PREZZO */
+.portfolio-offer-price {
+    background: #ffffff;
+    border-radius: 26px;
+    padding: 2.8rem 2.5rem;
+    text-align: center;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.1);
+}
+
+/* PREZZO PRINCIPALE */
+.price-main {
+    margin-bottom: 1.6rem;
+}
+
+.price-label {
+    font-size: 0.9rem;
+    color: #777;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.price-value {
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #6a11cb;
+}
+
+/* MANUTENZIONE */
+.price-maintenance {
+    margin-bottom: 2.2rem;
+}
+
+.maintenance-label {
+    display: block;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.maintenance-value {
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #2575fc;
+}
+
+/* CTA */
+.btn-portfolio {
+    display: inline-block;
+    padding: 0.95rem 2.5rem;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-portfolio:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 35px rgba(106,17,203,0.35);
+}
+
+/* BOTTONE DEMO */
+.btn-demo {
+    margin-top: 1.1rem;
+    background: transparent;
+    color: #6a11cb;
+    border: 2px solid #6a11cb;
+    font-weight: 600;
+}
+
+.btn-demo:hover {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 12px 30px rgba(106,17,203,0.35);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .portfolio-offer {
+        padding: 4.5rem 1.2rem;
+    }
+
+    .portfolio-offer-header h2 {
+        font-size: 2.4rem;
+    }
+
+    .price-value {
+        font-size: 2.6rem;
+    }
+}
