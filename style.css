@@ -822,6 +822,13 @@ body {
     box-shadow: 0 10px 20px rgba(106,17,203,0.4);
 }
 
+.portfolio-note {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #777;
+    text-align: center;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */
@@ -962,6 +969,12 @@ body {
     }
 }
 
+.testimonials-note {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    color: #777;
+    text-align: center;
+}
 
 .documents-section {
     background: #f5f5f5; /* sfondo chiaro */
